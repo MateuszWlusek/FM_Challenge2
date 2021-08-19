@@ -110,10 +110,15 @@ body {
   padding: 1em;
 }
 .container .container__main .container__plan .container__planNamePrice {
-  padding: 1em 10em 1em 1em;
+  padding: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+@media screen and (min-width: 1025px) {
+  .container .container__main .container__plan .container__planNamePrice {
+    padding: 1em 10em 1em 1em;
+  }
 }
 .container .container__main .container__plan .container__planNamePrice .container__name {
   font-size: 1.5em;

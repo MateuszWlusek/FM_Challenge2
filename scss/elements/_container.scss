@@ -77,10 +77,14 @@
             }
 
             .container__planNamePrice {
-                padding: 1em 10em 1em 1em;
+                padding: 1em;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+
+                @include desktop {
+                    padding: 1em 10em 1em 1em;
+                }
 
                 .container__name {
                     font-size: 1.5em;
